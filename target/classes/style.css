@@ -1,0 +1,77 @@
+#root {
+    -fx-background-color: #f0f0f0;
+}
+
+#header {
+    -fx-background-color: #222;
+}
+
+#header * {
+    -fx-font-size: 20;
+}
+
+#sidebar {
+    -fx-background-color: #666666;
+}
+
+.menu-button {
+    -fx-font-size: 15;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-background-color: #333;
+    -fx-padding: 8px 16px;
+    -fx-border-color: #555;
+    -fx-border-width: 1px;
+}
+
+.menu-button:hover {
+    -fx-background-color: #CCCCCC;
+}
+
+.menu-button:pressed {
+    -fx-background-color: #BBBBBB;
+}
+
+#content-area {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #dddddd;
+}
+
+.vbox {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.label {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.text-field,
+.password-field,
+.button {
+    -fx-font-size: 14;
+}
+
+
+.logout-button {
+    -fx-font-size: 14;
+    -fx-padding: 10 15; /* Adjust padding as needed */
+    -fx-text-fill: #fff; /* White text color */
+    -fx-background-color: #222; /* Dark background color */
+    -fx-border-color: #555; /* Border color */
+    -fx-border-width: 2; /* Border width */
+    -fx-cursor: hand; /* Show hand cursor on hover */
+    -fx-font-weight: bold;
+}
+
+.logout-button:hover {
+    -fx-background-color: #555; /* Dark background color on hover */
+    -fx-border-color: #777; /* Border color on hover */
+}
+
+
+* {
+    -fx-font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", sans-serif;
+}
